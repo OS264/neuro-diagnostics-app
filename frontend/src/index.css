@@ -1,0 +1,9 @@
+/* Standard Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to test if Tailwind is actually working */
+body {
+  @apply bg-slate-50;
+}
