@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://neuro-diagnostics-app1.onrender.com";
 
 const CATEGORY_MAP = {
   "General": ["fatigue", "fever", "lethargy", "weight_loss", "high_fever", "chills", "malaise", "phlegm", "sweating", "mild_fever"],
